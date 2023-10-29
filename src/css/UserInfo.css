@@ -1,0 +1,14 @@
+.Input {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.part {
+    display: flex;
+}
+
+.part > div {
+    margin-right: 5px; /* Add margin for spacing between elements */
+}

@@ -25,8 +25,7 @@ function UserInfo({componentType}: UserInfoProps) {
 			<div className="part">
 				<div className="terminal-blue">└─</div>
 				{/* TODO: This should display the correct time */}
-				<div className="terminal-green">{getDate()} - </div>
-				<div className="terminal-green">(^_^)</div>
+				<div className="terminal-green">{getDate()} - (^_^)</div>
 				<div className="terminal-yellow">[$]</div>
 				{componentType}
 			</div>
